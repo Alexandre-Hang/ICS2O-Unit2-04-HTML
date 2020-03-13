@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Learning more about Event listener">
+    <meta name="keywords" content="event, listener">
+    <meta name="author" content="Alexandre Hang">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning more about Event Listener</title>
+    <link rel="stylesheet" "text/css" href="index.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <h1>Learning Input Text value Property</h1>
+    <button onclick="func()" id="mybutton">Click Here!</button><br><br>
+    <form>
+    <label for="sport">favourite sport:</label>
+    <input type="text" id="textbox" name="textbox">
+    </form>
+    <script>
+      document.getElementById("mybutton").addEventListener("click", "func()");
+    </script>
+  </body>
+</html>
